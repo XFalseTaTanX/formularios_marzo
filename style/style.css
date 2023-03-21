@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+.formulario{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Rubik Iso', cursive;
+    text-align: center;
+    background-color:white;
+    height: 50vh;
+    color: blue;
+
+}
+.lottie{
+    background-color: rgb(92, 211, 53);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
