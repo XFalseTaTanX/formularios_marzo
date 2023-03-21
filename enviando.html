@@ -4,8 +4,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="whidth=device-width, initial-scale=1.0">
         <title>document</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </head>
     <body>
-        Enviando...
+        <div class="lottie">
+            <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_z1VFRK.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
+        </div>
+        <div class="formulario">
+            <form action="">
+                <input type="email" required placeholder="Ingresa tu correo">
+                <input type="password" required placeholder="Ingresa tu contraseña">
+                <br>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date" required placeholder="ingresa tu año de nacimiento">
+                <label for="">Color favorito</label>
+                <input type="color" required placeholder="ingresa tu color">
+                <br> <br>
+                <textarea name="" id="" cols="30" rows="10">
+                    Comenta aqui
+                </textarea>
+                <br> <br>
+                <input type="radio" value="adsi" id="adso" name="tecnologo-en" required placeholder="ingresa tu formacion">
+                <label for="adsi">ADSI</label>
+
+                <input type="radio" value="adso" id="adso" name="tecnologo-en" required placeholder="ingresa tu formacion">
+                <label for="adsi">ADSO</label>
+                <br> <br>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
     </body>
 </html>
